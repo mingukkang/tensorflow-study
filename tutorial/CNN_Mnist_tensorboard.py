@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[5]:
-
 import tensorflow as tf
 
 import numpy as np
@@ -141,9 +136,6 @@ print("Learning_finish")
 
 Accuracy_val = sess.run([Accuracy], feed_dict = {X:mnist.test.images, Y:mnist.test.labels, keep_prob:1})
 print("Accuracy:", Accuracy_val)
-
-
-# In[ ]:
 
 
 
