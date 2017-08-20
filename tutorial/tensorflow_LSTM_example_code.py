@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
 # ----------------------------------------------------------------------------------------------
 # the purpose of this code is to make algorism where if you input "hihell" to your computer, 
 # the computer will give you "ihello" output
@@ -138,9 +133,3 @@ print("------------------------------------------------------------------")
 # calculating Accuracy
 Accuracy_val = sess.run([Accuracy], feed_dict = {X:X_data,Y:Y_data})
 print("Accuracy:", Accuracy_val)
-
-
-# In[ ]:
-
-
-
