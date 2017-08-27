@@ -19,7 +19,7 @@ keep_prob = tf.placeholder(tf.float32)
 display_step = 1
 logs_path = './logs1'
 
-# first convolution layers with 32 filters whose shape are [2,2,1]
+# first convolutional layers with 32 filters whose shape are [2,2,1]
 # i will use Adam Optimizer and xavier initializer
 with tf.name_scope('conv1'):
     conv_w1 = tf.get_variable("conv_w1", shape = [2,2,1,32], initializer = tf.contrib.layers.xavier_initializer())
@@ -35,7 +35,7 @@ with tf.name_scope("relu1"):
 with tf.name_scope("max_pool1"):
     layer1 = tf.nn.max_pool(layer1, ksize = [1,2,2,1], strides = [1,2,2,1], padding = "SAME")
 
-# Second convolution layers with 64 filters whose shape are [2,2,1]
+# Second convolutional layers with 64 filters whose shape are [2,2,1]
 # i also use Adam Optimizer and xavier initializer
 
 with tf.name_scope("conv2"):
