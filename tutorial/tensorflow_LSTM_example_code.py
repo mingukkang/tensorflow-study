@@ -4,7 +4,7 @@
 # when i write this code, i refered to the youtube lecture which link
 # "https://www.youtube.com/watch?v=vwjt1ZE5-K4&index=45&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm"
 # I am not so good at English. So please be good to understand my awkward English.
-# instead of using "hihello", i use lyrics(see you again)
+# instead of using "hihello", i use lyrics(see you again).
 # ----------------------------------------------------------------------------------------------
 
 import tensorflow as tf
